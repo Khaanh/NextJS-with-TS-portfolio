@@ -1,5 +1,10 @@
 import React from "react";
+import SectionHeading from "./section-heading";
 
 export default function Experience() {
-	return <div>Experience</div>;
+	return (
+		<section id="experience">
+			<SectionHeading>My experience</SectionHeading>
+		</section>
+	);
 }
