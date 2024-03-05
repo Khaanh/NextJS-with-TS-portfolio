@@ -16,7 +16,7 @@ export default function SubmitBtn() {
 			) : (
 				<>
 					Submit{" "}
-					<FaPaperPlane className="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:translate-y-1 focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105" />
+					<FaPaperPlane className="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:translate-y-1 focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 dark:bg-white dark:bg-opacity-10" />
 				</>
 			)}
 		</button>
