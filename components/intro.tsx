@@ -54,7 +54,7 @@ export default function Intro() {
 				initial={{ opacity: 0, y: 100 }}
 				animate={{ opacity: 1, y: 0 }}
 			>
-				<span className="font-bold">Hello, I&apos;m Ricardo.</span> I&apos;m a{" "}
+				<span className="font-bold">Hello, I&apos;m Khanh.</span> I&apos;m a{" "}
 				<span className="font-bold">Frontend React developer</span> with{" "}
 				<span className="font-bold">1 years</span> of experience. I enjoy
 				building <span className="italic">sites & apps</span>. My focus is{" "}
@@ -83,7 +83,7 @@ export default function Intro() {
 
 				<a
 					href="/CV.pdf"
-					download={true}
+					target="_blank"
 					className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border borderBlack dark:bg-white/10"
 				>
 					Download CV{" "}
@@ -91,7 +91,7 @@ export default function Intro() {
 				</a>
 
 				<a
-					href=""
+					href="https://www.linkedin.com/in/khaanh/"
 					target="_blank"
 					className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border borderBlack dark:bg-white/10 dark:text-white/60"
 				>
@@ -99,7 +99,7 @@ export default function Intro() {
 				</a>
 
 				<a
-					href=""
+					href="https://github.com/Khaanh"
 					target="_blank"
 					className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border borderBlack dark:bg-white/10 dark:text-white/60"
 				>
